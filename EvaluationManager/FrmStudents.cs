@@ -1,5 +1,6 @@
 ﻿using Evaluation_Manager.Models;
 using Evaluation_Manager.Repositories;
+using EvaluationManager;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -45,5 +46,9 @@ namespace Evaluation_Manager
             }
         }
 
+        private void btnGenerateReport_Click(object sender, EventArgs e) {
+            var form = new FrmFinalReport();
+            form.ShowDialog();
+        }
     }
 }
