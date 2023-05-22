@@ -41,3 +41,4 @@ D:\akupcic21\EvaluationManager\obj\Debug\EvaluationManager.csproj.CoreCompileInp
 D:\akupcic21\EvaluationManager\obj\Debug\EvaluationManager.csproj.CopyComplete
 D:\akupcic21\EvaluationManager\obj\Debug\EvaluationManager.exe
 D:\akupcic21\EvaluationManager\obj\Debug\EvaluationManager.pdb
+D:\akupcic21\EvaluationManager\obj\Debug\EvaluationManager.FrmFinalReport.resources

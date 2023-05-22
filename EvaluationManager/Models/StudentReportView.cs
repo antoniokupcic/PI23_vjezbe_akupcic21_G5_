@@ -39,7 +39,11 @@ namespace EvaluationManager.Models {
             var zadaca2 = evaluations.FirstOrDefault(e => e.Activity.Name == "Zadaca 2");
             var zadaca3 = evaluations.FirstOrDefault(e => e.Activity.Name == "Zadaca 3");
 
-
+            K1 = kolokvij1 == null ? "-" : kolokvij1.Points.ToString();
+            K2 = kolokvij2 == null ? "-" : kolokvij2.Points.ToString();
+            Z1 = zadaca1 == null ? "-" : zadaca1.Points.ToString();
+            Z1 = zadaca2 == null ? "-" : zadaca2.Points.ToString();
+            Z1 = zadaca3 == null ? "-" : zadaca3.Points.ToString();
 
         }
 
